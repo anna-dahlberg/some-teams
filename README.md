@@ -1,2 +1,6 @@
 # some-teams
-Repository for Some Teams assignment 
+This project is licensed under the terms of the MIT license.
+
+
+
+
