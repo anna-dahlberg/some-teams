@@ -24,8 +24,11 @@ require __DIR__ . '/data.php';
     </ul>
 </article>
 
+<?php
 
+require __DIR__ . '/footer.php';
 
+?>
 
 <!-- Styles to be applied in CSS:
  For logo: 100px height and width

@@ -10,9 +10,9 @@
 
 <body>
     <nav class="nav-bar">
-        <a href="">Start</a>
-        <a href="about.html">About</a>
-        <a href="">Contact</a>
+        <a href="/start.php">Start</a>
+        <a href="/about.php">About</a>
+        <a href="/contact.php">Contact</a>
     </nav>
     <header>
         <h1>Anna Dahlberg</h1>
