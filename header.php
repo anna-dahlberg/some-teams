@@ -15,5 +15,5 @@
         <a href="/contact.php">Contact</a>
     </nav>
     <header>
-        <h1>Anna Dahlberg</h1>
+        <h1>Anna Dahlberg // Some Teams</h1>
     </header>

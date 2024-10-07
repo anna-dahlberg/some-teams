@@ -1,16 +1,28 @@
-@font-face {
-    font-family: 'Oswald';
-    src: url(Fonts/Oswald/Oswald-VariableFont_wght.ttf);
+:root {
+    --bright-pink: #FF006E;
+    --bright-green: #4FE451;
+    --ivory: #fbf8ef;
+    --dark-blue: #003F63;
+    --graphite: #272727;
+
 }
 @font-face {
-    font-family: 'Roboto';
-    src: url(Fonts/Roboto/Roboto-Regular.ttf);
+    font-family: 'Oswald';
+    src: url(Fonts-and-pictures/Oswald/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url(Fonts-and-pictures/Manrope/Manrope-VariableFont_wght.ttf);
     font-weight: 400;
 }
 
 body {
-    background: url(rio-andhika-aHPpIickjV4-unsplash.jpg);
-    box-sizing: border-box;
+    background-color: var(--ivory);
+    
+}
+
+header {
+    height: 140px;
 }
 
 .nav-bar {
@@ -22,27 +34,42 @@ body {
 nav a {
     font-family: 'Oswald';
     font-size: 24px;
-    color: rgba(146, 0, 0, 0.791);
+    color: var(--bright-pink);
     text-decoration: none;
     padding: 10px;
+    font-weight: bold;
 }
 
 nav a:hover {
-    color: cornsilk;
+    color: var(--bright-green);
 }
 
 h1 {
     font-family: 'Oswald';
-    color: black;
+    color: var(--bright-pink);
     font-size: 60px;
-    margin: 5px
+    margin: 5px;
 }
 
 article {
-    background-color: rgb(231, 229, 229);
-    width: 90%;
-    height: 900px;
-    margin: auto;
-    font-family: 'Roboto';
-    padding:50px;
+    font-family: 'Manrope';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.team-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.team-div {
+    width: 300px;
+    height: 300px;
+    color: var(--dark-blue);
 }
