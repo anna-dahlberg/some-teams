@@ -31,7 +31,7 @@
 
 body {
     background-color: var(--ivory);
-    margin: 40px;
+    margin: 40px 0 0 0;
 }
 
 header {
@@ -39,6 +39,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 40px;
 }
 
 .brand-logo {
@@ -73,7 +74,7 @@ nav a:hover {
     color: var(--bright-green);
 }
 
-article {
+.some-teams-article {
     font-family: 'Manrope';
     display: flex;
     flex-direction: row;
@@ -81,8 +82,7 @@ article {
     justify-content: space-evenly;
     gap: 30px;
     margin: 30px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0px;
 }
 
 .team-logo {
@@ -98,4 +98,55 @@ article {
 
 #team-name {
     font-weight: 800;
+}
+
+.about-me-container {
+    display: flex;
+    margin: 30px;
+    padding: 40px 0px;
+    font-family: 'Manrope';
+}
+
+.about-me-img {
+    width: 28%;
+    height: 28%;
+}
+
+.about-me-article {
+    margin: 0 35px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-container ul {
+    margin: 20px 0;
+}
+
+.list-container li {
+    font-size: 14px;
+}
+
+.list-title {
+    text-decoration: underline;
+    margin: 2px;
+}
+
+footer {
+    height: 40px;
+    background-color: var(--bright-pink);
+}
+
+.contact-container {
+    display: flex;
+    margin: 30px;
+    padding: 40px 0px;
+    font-family: 'Manrope';
+}
+
+.contact-img {
+    width: 28%;
+    height: 28%;
 }

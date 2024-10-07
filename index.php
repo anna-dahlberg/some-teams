@@ -6,7 +6,7 @@ require __DIR__ . '/data.php';
 
 ?>
 
-<article>
+<article class="some-teams-article">
     <?php foreach ($teams as $teamName => $teamData): ?>
         <div class="team-div">
             <img src="<?= $teamData['logo'] ?>" alt="The teams official logo" class="team-logo">
