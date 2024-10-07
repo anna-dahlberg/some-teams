@@ -10,7 +10,7 @@ require __DIR__ . '/data.php';
     <?php foreach ($teams as $teamName => $teamData): ?>
         <div class="team-div">
             <img src="<?= $teamData['logo'] ?>" alt="The teams official logo" class="team-logo">
-            <h3> <?= $teamName ?> </h3>
+            <h3 id="team-name"> <?= $teamName ?> </h3>
             League: <?= $teamData['league'] ?> <br>
             City: <?= $teamData['city'] ?> <br>
             UEFA Coefficient Ranking: <?= $teamData['uefa-coefficient-ranking'] ?> <br>

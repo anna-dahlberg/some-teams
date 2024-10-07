@@ -10,10 +10,11 @@
 
 <body>
     <nav class="nav-bar">
-        <a href="/start.php">Start</a>
+        <a href="/index.php">Start</a>
         <a href="/about.php">About</a>
         <a href="/contact.php">Contact</a>
     </nav>
     <header>
-        <h1>Anna Dahlberg // Some Teams</h1>
+        <img src="../assets/Transparent Logo.png" alt="Logo Design" class="brand-logo">
+        <h1>Some Teams</h1>
     </header>

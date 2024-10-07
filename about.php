@@ -4,6 +4,8 @@ require __DIR__ . '/header.php';
 
 ?>
 
+<img src="" alt="" class="author-photo">
+
 <article class="about-me">
     Jag heter Anna Katarina Cecilia Dahlberg och är en webbutvecklare som drivs av en kombination av teknisk skicklighet, kreativitet och en vilja att sprida glädje och värme genom mitt arbete. Mitt mål är att skapa digitala upplevelser som inte bara fungerar smidigt utan också känns inspirerande, personliga och som en naturlig del av vardagen.
     Webbutveckling är mitt valda yrke, men jag vill också att min personlighet ska lysa igenom i allt jag gör. Jag älskar att bryta den stereotypiska bilden av webbutvecklaren som en tystlåten person som sitter framför datorn i ett mörkt rum. För mig handlar utveckling om att skapa ljusa, levande och användarvänliga plattformar som bjuder in och engagerar. När någon besöker en webbplats jag har byggt vill jag att de ska känna sig välkomna – som att de möts av en varm kram eller ett leende.

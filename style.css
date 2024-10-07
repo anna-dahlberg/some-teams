@@ -8,21 +8,50 @@
 }
 @font-face {
     font-family: 'Oswald';
-    src: url(Fonts-and-pictures/Oswald/Oswald-VariableFont_wght.ttf);
+    src: url(/assets/Oswald/static/Oswald-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(/assets/Oswald/static/Oswald-Bold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(/assets/Manrope/static/Manrope-Regular.ttf);
+    font-weight: 400;   
 }
 @font-face {
     font-family: 'Manrope';
-    src: url(Fonts-and-pictures/Manrope/Manrope-VariableFont_wght.ttf);
-    font-weight: 400;
+    src: url(/assets/Manrope/static/Manrope-Bold.ttf);
+    font-weight: 800;   
 }
 
 body {
     background-color: var(--ivory);
-    
+    margin: 40px;
 }
 
 header {
-    height: 140px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo {
+    height: 180px;
+
+}
+
+h1 {
+    font-family: 'Oswald';
+    color: var(--bright-pink);
+    font-size: 80px;
+    margin: 5px;
+    text-align: right;
 }
 
 .nav-bar {
@@ -37,18 +66,11 @@ nav a {
     color: var(--bright-pink);
     text-decoration: none;
     padding: 10px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 nav a:hover {
     color: var(--bright-green);
-}
-
-h1 {
-    font-family: 'Oswald';
-    color: var(--bright-pink);
-    font-size: 60px;
-    margin: 5px;
 }
 
 article {
@@ -72,4 +94,8 @@ article {
     width: 300px;
     height: 300px;
     color: var(--dark-blue);
+}
+
+#team-name {
+    font-weight: 800;
 }
