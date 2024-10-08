@@ -1,10 +1,9 @@
 :root {
-    --bright-pink: #FF006E;
-    --bright-green: #4FE451;
-    --ivory: #fbf8ef;
-    --dark-blue: #003F63;
-    --graphite: #272727;
-
+    --pampas: #F0EDE8;
+    --olive: #ABAC5A;
+    --rock-blue: #9FB2CD;
+    --blue-bayoux: #496677;
+    --marroon: #271203;
 }
 @font-face {
     font-family: 'Oswald';
@@ -30,8 +29,10 @@
 }
 
 body {
-    background-color: var(--ivory);
-    margin: 40px 0 0 0;
+    background-color: var(--pampas);
+    margin: 0;
+    font-family: 'Manrope';
+    color: var(--marroon);
 }
 
 header {
@@ -39,7 +40,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 40px;
+    padding: 0 40px 40px 40px;
+    background-color: var(--olive);
 }
 
 .brand-logo {
@@ -48,7 +50,7 @@ header {
 
 h1 {
     font-family: 'Oswald';
-    color: var(--bright-pink);
+    color: var(--pampas);
     font-size: 80px;
     margin: 5px;
     text-align: right;
@@ -58,23 +60,24 @@ h1 {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
+    background-color: var(--olive);
+    padding: 40px 0 0 0;
 }
 
 nav a {
     font-family: 'Oswald';
     font-size: 24px;
-    color: var(--bright-pink);
+    color: var(--marroon);
     text-decoration: none;
     padding: 10px;
     font-weight: 800;
 }
 
 nav a:hover {
-    color: var(--bright-green);
+    color: var(--pampas);
 }
 
 .some-teams-article {
-    font-family: 'Manrope';
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -92,18 +95,23 @@ nav a:hover {
 .team-div {
     width: 300px;
     height: 300px;
-    color: var(--dark-blue);
 }
 
 #team-name {
     font-weight: 800;
 }
 
+.team-div a {
+    color: var(--marroon);
+}
+
+.team-div a:hover {
+    color: var(--olive);
+}
 .about-me-container {
     display: flex;
     margin: 30px;
     padding: 40px 0px;
-    font-family: 'Manrope';
 }
 
 .about-me-img {
@@ -117,7 +125,7 @@ nav a:hover {
 
 .list-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .list-container ul {
@@ -126,26 +134,50 @@ nav a:hover {
 
 .list-container li {
     font-size: 14px;
+    list-style: circle;
+    color: var(--blue-bayoux);
 }
 
 .list-title {
     text-decoration: underline;
     margin: 2px;
+    font-weight: 800;
+    color: #496677;
 }
 
 footer {
-    height: 40px;
-    background-color: var(--bright-pink);
+    height: 80px;
+    background-color: var(--marroon);
+    color: var(--pampas);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-container {
     display: flex;
     margin: 30px;
     padding: 40px 0px;
-    font-family: 'Manrope';
+    align-items: center;
 }
 
 .contact-img {
-    width: 28%;
-    height: 28%;
+    width: 33%;
+    height: 33%;
+    border-radius: 100%;
+}
+
+.contact-card {
+    width: 33%;
+    height: 33%;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-links {
+    width: 33%;
+    height: 33%;
+    display: flex;
+    justify-content: space-evenly;
 }
