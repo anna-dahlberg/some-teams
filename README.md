@@ -19,14 +19,14 @@ This is a simple PHP project designed to display information about various footb
 - **Markdown**: For this `README.md` file.
 
 ## Project structure
-├── data.php              # Contains the data of football teams.
-├── index.php             # The main start page, dynamically displaying team info.
-├── about.php             # Contains information about the creator.
-├── header.php            # Header section included on multiple pages.
-├── footer.php            # Footer section included on multiple pages.
-├── style.css             # Custom CSS for the site.
-├── README.md             # Project documentation.
-├── LICENSE               # Project license (MIT).
+- data.php              # Contains the data of football teams.
+- index.php             # The main start page, dynamically displaying team info.
+- about.php             # Contains information about the creator.
+- header.php            # Header section included on multiple pages.
+- footer.php            # Footer section included on multiple pages.
+- style.css             # Custom CSS for the site.
+- README.md             # Project documentation.
+- LICENSE               # Project license (MIT).
 
 ## About the creator
 This project was created by Anna Dahlberg, a passionate web developer with an interest in PHP, football, and building dynamic web applications.
