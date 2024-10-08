@@ -8,24 +8,24 @@
 }
 @font-face {
     font-family: 'Oswald';
-    src: url(/assets/Oswald/static/Oswald-Regular.ttf);
+    src: url(assets/Oswald/static/Oswald-Regular.ttf);
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url(/assets/Oswald/static/Oswald-Bold.ttf);
+    src: url(assets/Oswald/static/Oswald-Bold.ttf);
     font-weight: 800;
 }
 
 @font-face {
     font-family: 'Manrope';
-    src: url(/assets/Manrope/static/Manrope-Regular.ttf);
+    src: url(assets/Manrope/static/Manrope-Regular.ttf);
     font-weight: 400;   
 }
 @font-face {
     font-family: 'Manrope';
-    src: url(/assets/Manrope/static/Manrope-Bold.ttf);
+    src: url(assets/Manrope/static/Manrope-Bold.ttf);
     font-weight: 800;   
 }
 
@@ -44,7 +44,6 @@ header {
 
 .brand-logo {
     height: 180px;
-
 }
 
 h1 {

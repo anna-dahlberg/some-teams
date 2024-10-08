@@ -1,10 +1,8 @@
 <?php
 
-require __DIR__ . '/header.php';
+require __DIR__ . "/header.php";
 
 ?>
-
-<img src="" alt="" class="author-photo">
 
 <main class="about-me-container">
     <img src="assets/IMG_7327.JPG" alt="Bild på mig hållandes min strävhåriga tax Axa" class="about-me-img">
@@ -44,4 +42,4 @@ require __DIR__ . '/header.php';
 
 <?php
 
-require __DIR__ . '/footer.php';
+require __DIR__ . "/footer.php";
