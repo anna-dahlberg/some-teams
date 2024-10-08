@@ -15,25 +15,25 @@ require __DIR__ . "/header.php";
                 <p class="list-title">Filmer jag gillar:</p>
                 <li>Hajar som hajar</li>
                 <li>Coyote Ugly</li>
-                <li>Film 3</li>
-                <li>Film 4</li>
-                <li>Film 5</li>
+                <li>Arrival</li>
+                <li>Världens värsta människa</li>
+                <li>Interstellar</li>
             </ul>
             <ul class="music-list">
                 <p class="list-title">Artister jag gillar:</p>
                 <li>Beach House</li>
                 <li>Lana del Rey</li>
                 <li>Weyes Blood</li>
-                <li>Artist 4</li>
+                <li>Alt-J</li>
                 <li>ABBA</li>
             </ul>
             <ul class="dont-like-list">
-                <p class="list-title">Saker jag inte gillar:</p>
-                <li>Lavendel-doft</li>
-                <li>Sak 2</li>
-                <li>Sak 3</li>
-                <li>Sak 4</li>
-                <li>Sak 5</li>
+                <p class="list-title">Ljud jag gillar:</p>
+                <li>Isen som sjunger</li>
+                <li>Valsång</li>
+                <li>Regn på plåttak</li>
+                <li>Knastrande snö <br>under skorna</li>
+                <li>Vågor som bryter</li>
             </ul>
         </div>
     </article>
