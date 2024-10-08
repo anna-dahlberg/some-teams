@@ -15,6 +15,6 @@
         <a href="contact.php">Contact</a>
     </nav>
     <header>
-        <img src="assets/Transparent Logo.png" alt="Logo Design" class="brand-logo">
+        <img src="assets/Logo.png" alt="Logo Design" class="brand-logo">
         <h1>Some Teams</h1>
     </header>
